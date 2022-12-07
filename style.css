@@ -1,4 +1,9 @@
-.thumbnail {
+body {
+        font-family: Roboto, Arial, sans-serif;
+}
+
+.thumbnail-row {
+    margin-bottom: 12px;
     width: 300px;
     display: block;
 }
@@ -8,14 +13,8 @@
 }
 
 .video-title {
-    width: 300px;
+    margin-top: 0;
 }
-/* 
-.video-author {
-}
-
-.video-stats {
-} */
 
 .video-preview {
     width: 300px;
@@ -23,4 +22,21 @@
     vertical-align: top;
     margin-right: 15px;
     flex-wrap: wrap;
+}
+
+.profile-picture {
+    width: 40px;
+    border-radius: 50%;
+    vertical-align: top;
+}
+
+.channel-picture {
+    width: 50px;
+    display: inline-block;
+}
+
+.video-info {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
 }
