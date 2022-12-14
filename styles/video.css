@@ -1,3 +1,7 @@
+.thumbnail {
+    position: relative;
+}
+
 .thumbnail-row {
     width: 100%;
 }
@@ -10,7 +14,8 @@
     margin-bottom: 12px;
 }
 
-.video-author, .video-stats  {
+.video-author,
+.video-stats {
     font-size: 12px;
     color: #606060;
 }
@@ -19,12 +24,8 @@
     margin-bottom: 4px;
 }
 
-/* .video-preview {
-
-} */
-
 .profile-picture {
-    width: 40px;
+    width: 36px;
     border-radius: 50%;
     vertical-align: top;
 }
@@ -34,15 +35,21 @@
     grid-template-columns: 50px 1fr;
 }
 
-/* .channel-picture {
-}
-
-.video-info {
-} */
-
 .video-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+}
+
+.video-time {
+    font-family: Roboto, Arial;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-size: 10px;
+    padding: 4px;
+    border-radius: 2px;
 }
